@@ -1,5 +1,5 @@
 /**
- * 单项链表: 插入 查找 删除
+ * 单向链表: 插入 查找 删除
  */
 class Node {
   constructor(element) {
@@ -20,14 +20,14 @@ class Node {
  */
 class LinkedList {
   constructor() {
-    // 链表的首节点固定为'head'
+    // 链表的首节点固定为'head': 称之为哨兵, 这样就不需要在单链表的插入和删除操作时, 判断是否在第一个位置进行
     this.head = new Node('head');
   }
 
   append(newElement) {
     const newNode = new Node(newElement);
     let currentNode = this.head;
-    while(currentNode.next) {
+    while(currentNode.next !== null) {
       currentNode = currentNode.next;
     }
 
