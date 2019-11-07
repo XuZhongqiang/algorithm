@@ -3,6 +3,7 @@
 
 1. 新增了多页面配置
 2. 使用yarn start启动
+3. 浏览器输入例如localhost://3000/queue(.html)即可访问
 
 ## 数据结构
 - [单向链表](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/single-linked-list_01/index.js)
