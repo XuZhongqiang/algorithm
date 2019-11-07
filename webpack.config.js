@@ -3,14 +3,16 @@ const webpack = require('webpack');
 const glob = require('glob');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const files = glob.sync(path.join(__dirname, './src/*/index.js'));
-const pageNames = files.map((filePath) => filePath.match(/src\/(.*)\/index\.js$/)[1]);
-const mpaConfig = files.reduce((mpa, filePath) => {
-  const pageName = filePath.match(/src\/(.*)\/index\.js$/)[1];
-  mpa.entry[pageName] = filePath;
+const indexFiles = glob.sync(path.join(__dirname, './src/**/*/index.js'));
+const indexHtmls = glob.sync(path.join(__dirname, './src/**/*/index.html'));
+const pageNames = indexFiles.map((filePath) => filePath.match(/src\/.*\/(.*)\/index\.js$/)[1]);
+
+const mpaConfig = indexFiles.reduce((mpa, indexFilePath, curIndex) => {
+  const pageName = indexFilePath.match(/src\/.*\/(.*)\/index\.js$/)[1];
+  mpa.entry[pageName] = indexFilePath;
 
   const plugin = new HtmlWebpackPlugin({
-    template: path.join(__dirname, `src/${pageName}/index.html`),
+    template: indexHtmls[curIndex],// indexFilePath.replace(/\.js$/, '.html')
     filename: `${pageName}.html`,
     // chunks: [pageName],
     excludeChunks: pageNames.filter((page) => page !== pageName),
