@@ -1,3 +1,6 @@
+/**
+ * 冒泡排序
+ */
 function BubbleSort(arr) {
   console.log('排序之前: ', arr);
   const length = arr.length;
