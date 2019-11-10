@@ -1,3 +1,9 @@
+/**
+ * 选择排序
+ * 1. 原地排序算法
+ * 2. 是不稳定的排序算法
+ * 3. 时间复杂度: 最好,最坏,平均情况下都为O(n²)
+ */
 function selectionSort(arr) {
   console.log('排序前: ', arr);
   const length = arr.length;
