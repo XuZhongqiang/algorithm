@@ -8,4 +8,11 @@
 
 3. 时间复杂度
 
-[冒泡排序]: https://user-gold-cdn.xitu.io/2017/3/16/e5ffe75c2317e733ba62e4fd0bdf818f.gif?imageView2/0/w/1280/h/960/format/webp/ignore-error/1
+- 冒泡排序
+![冒泡排序](https://user-gold-cdn.xitu.io/2017/3/16/e5ffe75c2317e733ba62e4fd0bdf818f.gif?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+- 插入排序
+![插入排序](https://user-gold-cdn.xitu.io/2017/3/16/efb234fbc249dc93564db1bcac130c16.gif?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+- 选择排序
+![选择排序](https://user-gold-cdn.xitu.io/2017/3/16/4665a3442b180c46d0223d2be55a9d50.gif?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
