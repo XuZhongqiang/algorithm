@@ -34,6 +34,8 @@ const mpaConfig = indexFiles.reduce((mpa, indexFilePath, curIndex) => {
   htmlWebpackPlugins: []
 });
 
+console.log(mpaConfig);
+
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
