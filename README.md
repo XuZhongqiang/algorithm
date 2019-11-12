@@ -15,3 +15,4 @@
 - [冒泡排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/sort/bubble-sort.js)
 - [插入排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/sort/insertion-sort.js)
 - [选择排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/sort/selection-sort.js)
+- [寻找数组中第k大个数](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/complicated-sort/KthNum.js)
