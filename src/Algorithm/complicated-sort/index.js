@@ -1,1 +1,2 @@
-import './merge-sort';
+// import './merge-sort';
+import './quick-sort';
