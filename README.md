@@ -12,10 +12,10 @@
 - [栈](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/stack/stack.js)
 
 ## 算法
-- [冒泡排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/sort/bubble-sort.js)
-- [插入排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/sort/insertion-sort.js)
-- [选择排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/sort/selection-sort.js)
-- [寻找数组中第k大个数](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/complicated-sort/KthNum.js)
-- [归并排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/complicated-sort/merge-sort.js)
-- [快排](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/complicated-sort/quick-sort.js)
+- [冒泡排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-one-sort/bubble-sort.js)
+- [插入排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-one-sort/insertion-sort.js)
+- [选择排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-one-sort/selection-sort.js)
+- [寻找数组中第k大个数](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-two-sort/KthNum.js)
+- [归并排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/evel-two-sort/merge-sort.js)
+- [快排](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/evel-two-sort/quick-sort.js)
 - [桶排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-three-sort/bucket-sort.js)
