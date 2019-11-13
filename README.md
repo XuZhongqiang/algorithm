@@ -18,3 +18,4 @@
 - [寻找数组中第k大个数](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/complicated-sort/KthNum.js)
 - [归并排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/complicated-sort/merge-sort.js)
 - [快排](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/complicated-sort/quick-sort.js)
+- [桶排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-three-sort/bucket-sort.js)
