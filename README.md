@@ -19,3 +19,4 @@
 - [归并排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/evel-two-sort/merge-sort.js)
 - [快排](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/evel-two-sort/quick-sort.js)
 - [桶排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-three-sort/bucket-sort.js)
+- [计数排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-three-sort/counting-sort.js)
