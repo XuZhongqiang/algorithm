@@ -21,3 +21,4 @@
 - [桶排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-three-sort/bucket-sort.js)
 - [计数排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/level-three-sort/counting-sort.js)
 - [有序且元素不重复数组的二分查找](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/easy-binary-find/index.js)
+- [二分查找变体](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/05-binary-find/index.js)
