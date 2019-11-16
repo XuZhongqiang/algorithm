@@ -6,10 +6,11 @@
 3. 浏览器输入例如localhost://3000/queue(.html)即可访问
 
 ## 数据结构
-- [单向链表](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/single-linked-list_01/index.js)
-- [单向链表复杂操作](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/single-linked-list_02/index.js)
-- [队列](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/queue/queue.js)
-- [栈](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/stack/stack.js)
+- [单向链表](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/01_single-linked-list/index.js)
+- [单向链表复杂操作](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/_02single-linked-list/index.js)
+- [队列](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/03_queue/queue.js)
+- [栈](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/04_stack/stack.js)
+- [HashTable](https://github.com/XuZhongqiang/algorithm/blob/master/src/DataStructure/05_hash-table/index.js)
 
 ## 算法
 - [冒泡排序](https://github.com/XuZhongqiang/algorithm/blob/master/src/Algorithm/01-sort/bubble-sort.js)
