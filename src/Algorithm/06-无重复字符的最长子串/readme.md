@@ -22,3 +22,27 @@
 解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
      请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
 ```
+
+```js
+function lengthOfLongestSubstring(str) {
+  if (typeof str !== 'string' || str.length === 0) return 0;
+
+  let longestSubStr = '';
+  let ret = 0;
+  let subStr = '';
+
+  for (let char of str) {
+    if (subStr.indexOf(char) === -1) {
+      subStr += char;
+      ret = ret > subStr.length ? ret : subStr.length;
+      longestSubStr = ret > subStr.length ? longestSubStr : subStr;
+    } else {
+      subStr = subStr.slice(subStr.indexOf(char));
+    }
+  }
+
+  console.log('longestSubStr: ', longestSubStr);
+  console.log('length of longestSubStr: ', ret);
+  return ret;
+}
+```
