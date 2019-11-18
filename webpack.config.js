@@ -34,8 +34,6 @@ const mpaConfig = indexFiles.reduce((mpa, indexFilePath, curIndex) => {
   htmlWebpackPlugins: []
 });
 
-console.log(mpaConfig);
-
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
@@ -48,7 +46,16 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: 'babel-loader',
+        use: [
+          {
+            loader: require.resolve('babel-loader'),
+            options: {
+              plugins: [require.resolve('react-hot-loader/babel')],
+              cacheDirectory: true,
+              include: path.resolve(__dirname, 'src')
+            }
+          }
+        ]
       }
     ]
   },
