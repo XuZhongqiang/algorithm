@@ -11,7 +11,8 @@ function lengthOfLongestSubstring(str) {
       ret = ret > subStr.length ? ret : subStr.length;
       longestSubStr = ret > subStr.length ? longestSubStr : subStr;
     } else {
-      subStr = subStr.slice(subStr.indexOf(char));
+      subStr += char;
+      subStr = subStr.slice(subStr.indexOf(char) + 1);
     }
   }
 
@@ -20,4 +21,4 @@ function lengthOfLongestSubstring(str) {
   return ret;
 }
 
-lengthOfLongestSubstring('pwwkew');
+lengthOfLongestSubstring("aabaab!bb");
