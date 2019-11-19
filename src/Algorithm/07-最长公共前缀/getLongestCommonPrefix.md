@@ -18,8 +18,8 @@
 说明:
 所有输入只包含小写字母 a-z 。
 
-![分治](https://pic.leetcode-cn.com/8bb79902c99719a923d835b9265b2dea6f20fe7f067f313cddcf9dd2a8124c94-file_1555694229984)
 用到了分治的思想, 这种解法空间复杂度会比较高, 但是在足够的内存下, 用空间换时间还是可行的.
+![分治](https://pic.leetcode-cn.com/8bb79902c99719a923d835b9265b2dea6f20fe7f067f313cddcf9dd2a8124c94-file_1555694229984)
 
 ```js
 function getCommonPrefix(strs) {
