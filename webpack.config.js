@@ -50,7 +50,6 @@ module.exports = {
           {
             loader: require.resolve('babel-loader'),
             options: {
-              plugins: [require.resolve('react-hot-loader/babel')],
               cacheDirectory: true,
               include: path.resolve(__dirname, 'src')
             }
