@@ -19,6 +19,8 @@ function convert(list, rootValue) {
     if (!arr[id]) {
       arr[id] = element;
     } else {
+      // 如果走到else, 说明这个位置的元素是在下面的arr[parentId]生成的
+      // 为了保持node之间的引用, 所以需要重置引用
       element.children = arr[id].children;
       arr[id] = element;
     }
