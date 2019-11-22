@@ -17,7 +17,6 @@ function convert(list, rootValue) {
     const { parentId, id } = element;
     
     if (!arr[id]) {
-      element.children = [];
       arr[id] = element;
     } else {
       element.children = arr[id].children;
@@ -31,6 +30,8 @@ function convert(list, rootValue) {
         id: parentId,
         children: [element]
       }
+    } else if (!Array.isArray(arr[parentId].children)) {
+      arr[parentId].children = [element];
     } else {
       arr[parentId].children.push(element);
     }
